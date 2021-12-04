@@ -72,7 +72,7 @@ function OpenTpMenu()
 	local ped = PlayerPedId()
 	PlayerData = ESX.GetPlayerData()
 	local elements = {}
-		table.insert(elements, {label = '<span style="color:green;">Taman Kota</span>', value = 'tamkot'}) 
+		table.insert(elements, {label = '<span style="color:blue;">Taman Kota</span>', value = 'tamkot'}) 
 		ESX.UI.Menu.CloseAll()
 	ESX.UI.Menu.Open(
     'default', GetCurrentResourceName(), 'client',
